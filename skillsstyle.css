@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+body {
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%);
+    background-image: url(/images/bg1.jpg);
+    background-size: cover;
+    height: auto;
+}
+
+.navbar {
+    height: 75px;
+    margin: auto;
+}
+
+.logo {
+    padding-left: 20px;
+    margin-top: 15px;
+    margin-left: 30px;
+    color: #ff7200;
+    width: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    float: left;
+}
+
+.menu {
+    float: left;
+    width: 700px;
+    padding-left: 20px;
+    margin-top: 18px;
+    margin-left: 20px;
+    height: 70px;
+}
+
+.menu ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+.menu ul a{
+    text-decoration: none;
+    color: #fff;
+    float: left;
+    margin-left: 50px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 16px;
+    transition: ease-in-out .5s;
+}
+
+.menu ul a:hover {
+    color: #ff7200;
+}
+
+.skillscontainer {
+    margin: auto;
+    padding: 60px;
+}
+
+.skillscontainer .heading {
+    padding-bottom: 30px;
+    margin: auto;
+    color: #ff7200;
+    font-family: sans-serif;
+    text-align: center;
+    font-style: italic;
+
+}
+
+.container .boxcontainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
+}
+
+.container .boxcontainer .box {
+    width: 250px;
+    height: 120px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    background: linear-gradient(to top, rgba(0,0,0,0.7)50%, rgba(0,0,0,0.7)50%);
+    text-align: center;
+    padding: 30px 20px;
+    margin-left: 50px;
+
+}
+
+.container .boxcontainer .box:hover{
+    cursor: pointer;
+    box-shadow: #ff7200 2px 5px 15px 4px;
+}
+
+.container .boxcontainer .box img {
+    height: 80px;
+    width: 80px;
+}
+
+.container .boxcontainer .box h3 {
+    color: #fff;
+    font-size: 20px;
+    line-height: 1.5;
+}

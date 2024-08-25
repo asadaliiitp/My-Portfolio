@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%);
+    background-image: url(/images/bg1.jpg);
+    background-size: cover;
+    height: auto;
+}
+
+.navbar {
+    width: 100%;
+    height: 75px;
+    margin: auto;
+}
+
+.logo {
+    padding-left: 15px;
+    margin-top: 15px;
+    margin-left: 30px;
+    color: #ff7200;
+    width: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    float: left;
+}
+
+.menu {
+    float: left;
+    width: 500px;
+    padding-left: 20px;
+    margin-top: 18px;
+    margin-left: 20px;
+    height: 70px;
+}
+
+.menu ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+.menu ul a{
+    text-decoration: none;
+    color: #fff;
+    float: left;
+    margin-left: 50px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 16px;
+    transition: ease-in-out .3s;
+}
+
+.menu ul a:hover {
+    color: #ff7200;
+}
+
+.content {
+    float: left;
+    padding: 20px;
+    margin-left: 20px;
+    position: absolute;
+    left: 70px;
+    top: 60px;
+}
+
+#name {
+    font-size: 55px;
+    margin-top: 60px;
+    color: #ff7200;
+    font-family: sans-serif;
+}
+
+#profession {
+    font-size: 30px;
+    font-family: Arial;
+    color: #fff;
+}
+
+.para {
+    float: left;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.75px;
+    display: flex;
+}
+
+.mypic {
+    float: right;
+    height: 410px;
+    width: 320px;
+    border: 2px solid #ff7200;
+    border-radius: 50%;
+    position: absolute;
+    top: 70px;
+    left: 750px;
+    box-shadow: #ff7200 0 0 25px 5px;
+}
+
+.hirebtn {
+    float: left;
+    width: 80px;
+    height: 40px;
+    padding: 10px;
+    position: absolute;
+    left:20px;
+    top: 380px;
+    border: 1px solid #ff7200;
+    border-radius: 10px;
+    background-color: #ff7200;
+    cursor: pointer;
+    box-shadow: #ff7200 0 0 25px;
+}
+
+.hirebtn a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    transition: ease-in-out 0.3s;
+    letter-spacing: 1px;
+}
+
+.hirebtn:hover {
+    background: #000;
+}
+
+.footer {
+    margin: auto;
+    width: 100%;
+    border-top: 2px solid #ff7200;
+    box-shadow: #ff7200 0 0 5px 2px;
+    position: absolute;
+    top: 800px;
+    height: 50px;
+    background: linear-gradient(to top, rgba(0,0,0,0.7)50%, rgba(0,0,0,0.7)50%);
+}
+
+.copyrightinfo {
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    padding-left: 50px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.copyrightinfo a{
+    text-decoration: none;
+    color: #ff7200;
+}
